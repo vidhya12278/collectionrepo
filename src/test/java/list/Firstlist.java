@@ -16,11 +16,17 @@ public static void main(String[] args) {
 	int s = l.size();
 	System.out.println("list size: " + s);
 	
+	Integer p = l.get(30);
+	System.out.println("get the index value: " + p);
+
 	Integer u = l.remove(2);
 	System.out.println(" remove value : " + u);
 	
 	Integer o = l.set(4, 67);
 	System.out.println("set  value : " + o);
+
+	
+
 	
 	
 
