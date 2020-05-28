@@ -16,6 +16,9 @@ public static void main(String[] args) {
 	int s = l.size();
 	System.out.println("list size: " + s);
 	
+	Integer p = l.get(30);
+	System.out.println("get the index value: " + p);
+	
 	
 
 
