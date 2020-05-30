@@ -2,35 +2,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="str" value="color"/>
-  <parameter name="sub" value="greens@gmail.com"/>
-  <parameter name="search" value="redmi new design"/>
+  <parameter name="search" value="kids room curtains"/>
   <parameter name="web" value="element"/>
   <parameter name="brow" value="op"/>
   <test name="Test(failed)">
     <parameter name="str" value="color"/>
-    <parameter name="sub" value="greens@gmail.com"/>
-    <parameter name="search" value="redmi new design"/>
+    <parameter name="search" value="kids room curtains"/>
     <parameter name="web" value="element"/>
     <parameter name="brow" value="op"/>
     <groups>
       <run>
-        <include name="bonding"/>
+        <include name="regression"/>
       </run>
     </groups>
     <classes>
-      <class name="practice.Snapdealtestpage">
+      <class name="practice.Limeroad">
         <methods>
-          <include name="regpage2"/>
-          <include name="regpage1"/>
-          <include name="launch"/>
-          <include name="windows"/>
-          <include name="checkingoffers" invocation-numbers="0"/>
-          <include name="powerbank"/>
-          <include name="sellonsnapdeal"/>
-          <include name="helpcenter"/>
-          <include name="subscribe" invocation-numbers="0"/>
+          <include name="selectwomen"/>
+          <include name="addtocart" invocation-numbers="0"/>
         </methods>
-      </class> <!-- practice.Snapdealtestpage -->
+      </class> <!-- practice.Limeroad -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

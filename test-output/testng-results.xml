@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="8" total="18" passed="10">
+<testng-results skipped="0" failed="2" total="28" passed="26">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="701567" started-at="2020-05-29T14:54:34Z" finished-at="2020-05-29T15:06:16Z">
+  <suite name="Suite" duration-ms="127838" started-at="2020-05-30T15:37:06Z" finished-at="2020-05-30T15:39:14Z">
     <groups>
-      <group name="bonding">
-        <method signature="Snapdealtestpage.aboutsnapdeal()[pri:29, instance:practice.Snapdealtestpage@57baeedf]" name="aboutsnapdeal" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.checkingoffers(java.lang.String)[pri:18, instance:practice.Snapdealtestpage@57baeedf]" name="checkingoffers" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.giftcard()[pri:32, instance:practice.Snapdealtestpage@57baeedf]" name="giftcard" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.helpcenter()[pri:35, instance:practice.Snapdealtestpage@57baeedf]" name="helpcenter" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.javascript()[pri:6, instance:practice.Snapdealtestpage@57baeedf]" name="javascript" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.powerbank()[pri:24, instance:practice.Snapdealtestpage@57baeedf]" name="powerbank" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.regpage1()[pri:4, instance:practice.Snapdealtestpage@57baeedf]" name="regpage1" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.regpage2()[pri:5, instance:practice.Snapdealtestpage@57baeedf]" name="regpage2" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.search(java.lang.String)[pri:17, instance:practice.Snapdealtestpage@57baeedf]" name="search" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.sellonsnapdeal()[pri:34, instance:practice.Snapdealtestpage@57baeedf]" name="sellonsnapdeal" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.signin()[pri:3, instance:practice.Snapdealtestpage@57baeedf]" name="signin" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.subscribe(java.lang.String)[pri:37, instance:practice.Snapdealtestpage@57baeedf]" name="subscribe" class="practice.Snapdealtestpage"/>
-        <method signature="Snapdealtestpage.windows()[pri:27, instance:practice.Snapdealtestpage@57baeedf]" name="windows" class="practice.Snapdealtestpage"/>
-      </group> <!-- bonding -->
+      <group name="regression">
+        <method signature="Limeroad.addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@548e7350]" name="addtocart" class="practice.Limeroad"/>
+        <method signature="Limeroad.launch(java.lang.String)[pri:5, instance:practice.Limeroad@548e7350]" name="launch" class="practice.Limeroad"/>
+        <method signature="Limeroad.menupage()[pri:10, instance:practice.Limeroad@548e7350]" name="menupage" class="practice.Limeroad"/>
+        <method signature="Limeroad.pagetitleurl()[pri:8, instance:practice.Limeroad@548e7350]" name="pagetitleurl" class="practice.Limeroad"/>
+        <method signature="Limeroad.searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" class="practice.Limeroad"/>
+        <method signature="Limeroad.selectlanguage()[pri:8, instance:practice.Limeroad@548e7350]" name="selectlanguage" class="practice.Limeroad"/>
+        <method signature="Limeroad.selectwomen()[pri:9, instance:practice.Limeroad@548e7350]" name="selectwomen" class="practice.Limeroad"/>
+        <method signature="Limeroad.signin()[pri:10, instance:practice.Limeroad@548e7350]" name="signin" class="practice.Limeroad"/>
+        <method signature="Limeroad.smartwatches()[pri:12, instance:practice.Limeroad@548e7350]" name="smartwatches" class="practice.Limeroad"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="Test" duration-ms="701567" started-at="2020-05-29T14:54:34Z" finished-at="2020-05-29T15:06:16Z">
-      <class name="practice.Snapdealtestpage">
-        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:practice.Snapdealtestpage@57baeedf]" name="launch" is-config="true" duration-ms="118558" started-at="2020-05-29T20:24:35Z" finished-at="2020-05-29T20:26:33Z">
+    <test name="Test" duration-ms="127838" started-at="2020-05-30T15:37:06Z" finished-at="2020-05-30T15:39:14Z">
+      <class name="practice.Limeroad">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:5, instance:practice.Limeroad@548e7350]" name="launch" duration-ms="52990" started-at="2020-05-30T21:07:07Z" finished-at="2020-05-30T21:07:59Z">
           <params>
             <param index="0">
               <value>
@@ -33,83 +29,355 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="signin()[pri:3, instance:practice.Snapdealtestpage@57baeedf]" name="signin" duration-ms="3717" started-at="2020-05-29T20:26:33Z" finished-at="2020-05-29T20:26:37Z">
+        <test-method status="PASS" signature="pagetitleurl()[pri:8, instance:practice.Limeroad@548e7350]" name="pagetitleurl" duration-ms="1797" started-at="2020-05-30T21:08:00Z" finished-at="2020-05-30T21:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitleurl -->
+        <test-method status="PASS" signature="selectlanguage()[pri:8, instance:practice.Limeroad@548e7350]" name="selectlanguage" duration-ms="1113" started-at="2020-05-30T21:08:01Z" finished-at="2020-05-30T21:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlanguage -->
+        <test-method status="FAIL" signature="selectwomen()[pri:9, instance:practice.Limeroad@548e7350]" name="selectwomen" duration-ms="1916" started-at="2020-05-30T21:08:02Z" finished-at="2020-05-30T21:08:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='SHOP WOMEN']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 183562446a61c7fd813f31d5e1f3cd17
+*** Element info: {Using=xpath, value=//span[text()='SHOP WOMEN']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='SHOP WOMEN']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 183562446a61c7fd813f31d5e1f3cd17
+*** Element info: {Using=xpath, value=//span[text()='SHOP WOMEN']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at practice.Limeroad.selectwomen(Limeroad.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectwomen -->
+        <test-method status="PASS" signature="menupage()[pri:10, instance:practice.Limeroad@548e7350]" name="menupage" duration-ms="4165" started-at="2020-05-30T21:08:04Z" finished-at="2020-05-30T21:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menupage -->
+        <test-method status="PASS" signature="signin()[pri:10, instance:practice.Limeroad@548e7350]" name="signin" duration-ms="24104" started-at="2020-05-30T21:08:09Z" finished-at="2020-05-30T21:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="FAIL" signature="regpage1()[pri:4, instance:practice.Snapdealtestpage@57baeedf]" name="regpage1" duration-ms="351" started-at="2020-05-29T20:26:37Z" finished-at="2020-05-29T20:26:37Z">
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[No frame element found by name or id loginIframe
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id loginIframe
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:941)
-	at practice.Snapdealtestpage.regpage1(Snapdealtestpage.java:63)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+        <test-method status="PASS" signature="smartwatches()[pri:12, instance:practice.Limeroad@548e7350]" name="smartwatches" duration-ms="9086" started-at="2020-05-30T21:08:33Z" finished-at="2020-05-30T21:08:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regpage1 -->
-        <test-method status="FAIL" signature="regpage2()[pri:5, instance:practice.Snapdealtestpage@57baeedf]" name="regpage2" duration-ms="47449" started-at="2020-05-29T20:26:37Z" finished-at="2020-05-29T20:27:25Z">
+        </test-method> <!-- smartwatches -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1708" started-at="2020-05-30T21:08:42Z" data-provider="search" finished-at="2020-05-30T21:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1326" started-at="2020-05-30T21:08:43Z" data-provider="search" finished-at="2020-05-30T21:08:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1285" started-at="2020-05-30T21:08:45Z" data-provider="search" finished-at="2020-05-30T21:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1297" started-at="2020-05-30T21:08:46Z" data-provider="search" finished-at="2020-05-30T21:08:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1355" started-at="2020-05-30T21:08:47Z" data-provider="search" finished-at="2020-05-30T21:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1329" started-at="2020-05-30T21:08:49Z" data-provider="search" finished-at="2020-05-30T21:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1348" started-at="2020-05-30T21:08:50Z" data-provider="search" finished-at="2020-05-30T21:08:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1375" started-at="2020-05-30T21:08:51Z" data-provider="search" finished-at="2020-05-30T21:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1314" started-at="2020-05-30T21:08:53Z" data-provider="search" finished-at="2020-05-30T21:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1338" started-at="2020-05-30T21:08:54Z" data-provider="search" finished-at="2020-05-30T21:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1297" started-at="2020-05-30T21:08:55Z" data-provider="search" finished-at="2020-05-30T21:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1351" started-at="2020-05-30T21:08:57Z" data-provider="search" finished-at="2020-05-30T21:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1290" started-at="2020-05-30T21:08:58Z" data-provider="search" finished-at="2020-05-30T21:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1391" started-at="2020-05-30T21:08:59Z" data-provider="search" finished-at="2020-05-30T21:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1272" started-at="2020-05-30T21:09:01Z" data-provider="search" finished-at="2020-05-30T21:09:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1302" started-at="2020-05-30T21:09:02Z" data-provider="search" finished-at="2020-05-30T21:09:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1314" started-at="2020-05-30T21:09:03Z" data-provider="search" finished-at="2020-05-30T21:09:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1320" started-at="2020-05-30T21:09:05Z" data-provider="search" finished-at="2020-05-30T21:09:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1280" started-at="2020-05-30T21:09:06Z" data-provider="search" finished-at="2020-05-30T21:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sling bag for girls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1330" started-at="2020-05-30T21:09:07Z" data-provider="search" finished-at="2020-05-30T21:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop bags for women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="FAIL" signature="addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@548e7350]" name="addtocart" duration-ms="5690" started-at="2020-05-30T21:09:09Z" finished-at="2020-05-30T21:09:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kids room curtains]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='j_number']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='bs fs14 p12 pR'])[1]"}
   (Session info: chrome=81.0.4044.138)
   (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//input[@id='j_number']}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 183562446a61c7fd813f31d5e1f3cd17
+*** Element info: {Using=xpath, value=(//div[@class='bs fs14 p12 pR'])[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='j_number']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='bs fs14 p12 pR'])[1]"}
   (Session info: chrome=81.0.4044.138)
   (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//input[@id='j_number']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 183562446a61c7fd813f31d5e1f3cd17
+*** Element info: {Using=xpath, value=(//div[@class='bs fs14 p12 pR'])[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -126,7 +394,7 @@ Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
-	at practice.Snapdealtestpage.regpage2(Snapdealtestpage.java:76)
+	at practice.Limeroad.addtocart(Limeroad.java:154)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -157,538 +425,8 @@ Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regpage2 -->
-        <test-method status="PASS" signature="javascript()[pri:6, instance:practice.Snapdealtestpage@57baeedf]" name="javascript" duration-ms="20862" started-at="2020-05-29T20:27:25Z" finished-at="2020-05-29T20:27:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- javascript -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:17, instance:practice.Snapdealtestpage@57baeedf]" name="search" duration-ms="3922" started-at="2020-05-29T20:27:46Z" data-provider="search" finished-at="2020-05-29T20:27:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sunglasses]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:17, instance:practice.Snapdealtestpage@57baeedf]" name="search" duration-ms="3607" started-at="2020-05-29T20:27:50Z" data-provider="search" finished-at="2020-05-29T20:27:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sling bag]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:17, instance:practice.Snapdealtestpage@57baeedf]" name="search" duration-ms="3434" started-at="2020-05-29T20:27:54Z" data-provider="search" finished-at="2020-05-29T20:27:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sunglasses]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:17, instance:practice.Snapdealtestpage@57baeedf]" name="search" duration-ms="3830" started-at="2020-05-29T20:27:57Z" data-provider="search" finished-at="2020-05-29T20:28:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sling bag]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:17, instance:practice.Snapdealtestpage@57baeedf]" name="search" duration-ms="3511" started-at="2020-05-29T20:28:01Z" data-provider="search" finished-at="2020-05-29T20:28:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sunglasses]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="search(java.lang.String)[pri:17, instance:practice.Snapdealtestpage@57baeedf]" name="search" duration-ms="3937" started-at="2020-05-29T20:28:05Z" data-provider="search" finished-at="2020-05-29T20:28:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sling bag]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="FAIL" signature="checkingoffers(java.lang.String)[pri:18, instance:practice.Snapdealtestpage@57baeedf]" name="checkingoffers" duration-ms="1889" started-at="2020-05-29T20:28:09Z" finished-at="2020-05-29T20:28:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[redmi new design]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span class="linkTest">...</span> is not clickable at point (341, 151). Other element would receive the click: <a class="subdiv unStructured searchKeyWord" type="keyword" categoryxpath="ALL" data-labelname="sling bag men">...</a>
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="linkTest">...</span> is not clickable at point (341, 151). Other element would receive the click: <a class="subdiv unStructured searchKeyWord" type="keyword" categoryxpath="ALL" data-labelname="sling bag men">...</a>
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at practice.Snapdealtestpage.checkingoffers(Snapdealtestpage.java:241)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkingoffers -->
-        <test-method status="FAIL" signature="powerbank()[pri:24, instance:practice.Snapdealtestpage@57baeedf]" name="powerbank" duration-ms="80523" started-at="2020-05-29T20:28:10Z" finished-at="2020-05-29T20:29:31Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Rs.  537']"}
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//span[text()='Rs.  537']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Rs.  537']"}
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//span[text()='Rs.  537']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
-	at practice.Snapdealtestpage.powerbank(Snapdealtestpage.java:120)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- powerbank -->
-        <test-method status="FAIL" signature="windows()[pri:27, instance:practice.Snapdealtestpage@57baeedf]" name="windows" duration-ms="176965" started-at="2020-05-29T20:29:31Z" finished-at="2020-05-29T20:32:28Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='View Cart']"}
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//div[text()='View Cart']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='View Cart']"}
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//div[text()='View Cart']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
-	at practice.Snapdealtestpage.windows(Snapdealtestpage.java:145)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- windows -->
-        <test-method status="PASS" signature="aboutsnapdeal()[pri:29, instance:practice.Snapdealtestpage@57baeedf]" name="aboutsnapdeal" duration-ms="165084" started-at="2020-05-29T20:32:28Z" finished-at="2020-05-29T20:35:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aboutsnapdeal -->
-        <test-method status="PASS" signature="giftcard()[pri:32, instance:practice.Snapdealtestpage@57baeedf]" name="giftcard" duration-ms="56648" started-at="2020-05-29T20:35:13Z" finished-at="2020-05-29T20:36:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- giftcard -->
-        <test-method status="FAIL" signature="sellonsnapdeal()[pri:34, instance:practice.Snapdealtestpage@57baeedf]" name="sellonsnapdeal" duration-ms="6329" started-at="2020-05-29T20:36:10Z" finished-at="2020-05-29T20:36:16Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//a[text()='Sell On Snapdeal']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-*** Element info: {Using=xpath, value=//a[text()='Sell On Snapdeal']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
-	at practice.Snapdealtestpage.sellonsnapdeal(Snapdealtestpage.java:259)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sellonsnapdeal -->
-        <test-method status="FAIL" signature="helpcenter()[pri:35, instance:practice.Snapdealtestpage@57baeedf]" name="helpcenter" duration-ms="26" started-at="2020-05-29T20:36:16Z" finished-at="2020-05-29T20:36:16Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:899)
-	at practice.Snapdealtestpage.helpcenter(Snapdealtestpage.java:343)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- helpcenter -->
-        <test-method status="FAIL" signature="subscribe(java.lang.String)[pri:37, instance:practice.Snapdealtestpage@57baeedf]" name="subscribe" duration-ms="6" started-at="2020-05-29T20:36:16Z" finished-at="2020-05-29T20:36:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[greens@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=81.0.4044.138)
-  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: ed66b02108e8f3a4897f4e6c0c1a4bce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
-	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:919)
-	at practice.Snapdealtestpage.subscribe(Snapdealtestpage.java:390)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subscribe -->
-      </class> <!-- practice.Snapdealtestpage -->
+        </test-method> <!-- addtocart -->
+      </class> <!-- practice.Limeroad -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
