@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
@@ -93,7 +94,6 @@ for (int i = 0; i < 1; i++)
    try 
     {
       driver.findElement(By.xpath("//div[@class='bgL br20 br8 c3 dTc p8 vM']")).click();
-      driver.findElement(By.xpath("//span[text()='SHOP WOMEN']")).click();
     }
   catch(Exception e)
     {
@@ -221,6 +221,7 @@ Thread.sleep(1000);
 WebElement send = driver.findElement(By.xpath("//input[@type='search']"));
 send.clear();
 send.sendKeys(s1);
+System.out.println("..................search products.....................");
 System.out.println("i am searching the product with low price :" + s1);
 }
 
@@ -269,8 +270,14 @@ e.dismiss();
 @Test(priority=19,groups="regression")
 public void shoppingoffers() throws InterruptedException
 {
+Thread.sleep(8000);
+for (int i = 0; i < 5; i++) {
+	driver.navigate().back();
+}
+driver.navigate().to("https://www.limeroad.com");
+Thread.sleep(1000);
+//driver.findElement(By.xpath("//span[text()='SHOP WOMEN']")).click();
 Thread.sleep(2000);
-driver.navigate().to("https://www.limeroad.com/");
 WebElement shop = driver.findElement(By.xpath("//span[text()='shop']"));
 Actions n=new Actions(driver);
 n.click(shop).perform();
@@ -299,12 +306,75 @@ System.out.println("trending");
 Thread.sleep(3000);
 WebElement products = driver.findElement(By.xpath("//div[@class='dT wp100 tlF h48']"));
 System.out.println(products.getText());
-driver.findElement(By.xpath("//img[@src='//img0.junaroad.com/uiproducts/16299207/pri_175_p-1558437317.jpg']")).click();
+Thread.sleep(3000);
+//driver.findElement(By.xpath("//img[@src='//img0.junaroad.com/uiproducts/16299207/pri_175_p-1558437317.jpg']")).click();
  
+}
+
+@Test(groups="regression",priority=25)
+public void checkoutoffer70() throws InterruptedException 
+{
+Thread.sleep(4000);
+driver.navigate().back();
+//driver.navigate().to("https://www.limeroad.com/");
+WebElement shop = driver.findElement(By.xpath("//span[text()='shop']"));
+Actions n=new Actions(driver);
+n.click(shop).perform();
+Thread.sleep(2000);
+JavascriptExecutor s=(JavascriptExecutor)driver;
+Thread.sleep(3000);
+WebElement off1 = driver.findElement(By.xpath("(//img[@class='wp100 an-ll o0'])[4]"));
+Thread.sleep(1000);
+s.executeScript("arguments[0].scrollIntoView(true)",off1);
+System.out.println("......................OFFERS....................");
+Thread.sleep(7000);
+driver.findElement(By.xpath("(//img[@class='wp100 an-ll o0'])[3]")).click();
+Thread.sleep(4000);
+//dout
+System.out.println("==================================product details====================================");
+List<WebElement> l = driver.findElements(By.xpath("//img[@class='dB h412 w310 mA pR prdI gtm-p an-ll o0']"));
+int d = l.size();
+System.out.println("no of dresses : " + d);
+System.out.println("-------------------GOLD PRINT KURTA PANT SET----------------------");
+for (int i = 0; i < d; i++) 
+{
+  try
+   {
+     WebElement t = l.get(2);
+     t.click();
+   }
+  catch(Exception e) {}
+ }   
+
+Thread.sleep(1000);
+System.out.println("--------------------------size-----------------------");
+WebElement size = driver.findElement(By.xpath("//div[@class='bs fs14 p12 pR wp100 shk']"));
+System.out.println(size.getText());
+List<WebElement> pageall = driver.findElements(By.xpath("//div[@class='bs fs14 p12 pR']"));
+//highlight1("blue",pageall,driver);
+      for (WebElement full : pageall)
+       {
+    	//highlight("green",full,driver);
+    	System.out.println("-----------------------deliver and product details");
+        System.out.println(full.getText());	
+       }
 }
 @Parameters({"str","web","dr"})
 @Test
 public static void highlight(String s1, WebElement s2, WebDriver driver2)
+{
+j.executeScript("arguments[0].style.backgroundColor='"+s1+"'",s2);
+  try
+   {
+     Thread.sleep(8000);
+   }
+  catch(Exception e)
+   {}
+}
+
+@Parameters({"str","web","dr"})
+@Test
+public static void highlight1(String s1, List<WebElement> s2, WebDriver driver2)
 {
 j.executeScript("arguments[0].style.backgroundColor='"+s1+"'",s2);
   try
