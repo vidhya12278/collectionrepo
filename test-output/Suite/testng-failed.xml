@@ -5,11 +5,13 @@
   <parameter name="search" value="kids room curtains"/>
   <parameter name="web" value="element"/>
   <parameter name="brow" value="op"/>
+  <parameter name="goo" value="https://www.limeroad.com/"/>
   <test name="Test(failed)">
     <parameter name="str" value="color"/>
     <parameter name="search" value="kids room curtains"/>
     <parameter name="web" value="element"/>
     <parameter name="brow" value="op"/>
+    <parameter name="goo" value="https://www.limeroad.com/"/>
     <groups>
       <run>
         <include name="regression"/>
@@ -18,8 +20,12 @@
     <classes>
       <class name="practice.Limeroad">
         <methods>
-          <include name="selectwomen"/>
+          <include name="checkoffer60"/>
+          <include name="signin"/>
           <include name="addtocart" invocation-numbers="0"/>
+          <include name="end"/>
+          <include name="shoppingoffers"/>
+          <include name="start"/>
         </methods>
       </class> <!-- practice.Limeroad -->
     </classes>
