@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="28" passed="26">
+<testng-results skipped="0" failed="4" total="32" passed="28">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="127838" started-at="2020-05-30T15:37:06Z" finished-at="2020-05-30T15:39:14Z">
+  <suite name="Suite" duration-ms="197498" started-at="2020-05-31T07:17:10Z" finished-at="2020-05-31T07:20:27Z">
     <groups>
       <group name="regression">
-        <method signature="Limeroad.addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@548e7350]" name="addtocart" class="practice.Limeroad"/>
-        <method signature="Limeroad.launch(java.lang.String)[pri:5, instance:practice.Limeroad@548e7350]" name="launch" class="practice.Limeroad"/>
-        <method signature="Limeroad.menupage()[pri:10, instance:practice.Limeroad@548e7350]" name="menupage" class="practice.Limeroad"/>
-        <method signature="Limeroad.pagetitleurl()[pri:8, instance:practice.Limeroad@548e7350]" name="pagetitleurl" class="practice.Limeroad"/>
-        <method signature="Limeroad.searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" class="practice.Limeroad"/>
-        <method signature="Limeroad.selectlanguage()[pri:8, instance:practice.Limeroad@548e7350]" name="selectlanguage" class="practice.Limeroad"/>
-        <method signature="Limeroad.selectwomen()[pri:9, instance:practice.Limeroad@548e7350]" name="selectwomen" class="practice.Limeroad"/>
-        <method signature="Limeroad.signin()[pri:10, instance:practice.Limeroad@548e7350]" name="signin" class="practice.Limeroad"/>
-        <method signature="Limeroad.smartwatches()[pri:12, instance:practice.Limeroad@548e7350]" name="smartwatches" class="practice.Limeroad"/>
+        <method signature="Limeroad.Lime(java.lang.String)[pri:7, instance:practice.Limeroad@204f30ec]" name="Lime" class="practice.Limeroad"/>
+        <method signature="Limeroad.addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@204f30ec]" name="addtocart" class="practice.Limeroad"/>
+        <method signature="Limeroad.checkoffer60()[pri:23, instance:practice.Limeroad@204f30ec]" name="checkoffer60" class="practice.Limeroad"/>
+        <method signature="Limeroad.launch(java.lang.String)[pri:4, instance:practice.Limeroad@204f30ec]" name="launch" class="practice.Limeroad"/>
+        <method signature="Limeroad.menupage()[pri:10, instance:practice.Limeroad@204f30ec]" name="menupage" class="practice.Limeroad"/>
+        <method signature="Limeroad.pagetitleurlgoogle()[pri:6, instance:practice.Limeroad@204f30ec]" name="pagetitleurlgoogle" class="practice.Limeroad"/>
+        <method signature="Limeroad.pagetitleurllimeroad()[pri:8, instance:practice.Limeroad@204f30ec]" name="pagetitleurllimeroad" class="practice.Limeroad"/>
+        <method signature="Limeroad.searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" class="practice.Limeroad"/>
+        <method signature="Limeroad.selectlanguage()[pri:8, instance:practice.Limeroad@204f30ec]" name="selectlanguage" class="practice.Limeroad"/>
+        <method signature="Limeroad.selectwomen()[pri:9, instance:practice.Limeroad@204f30ec]" name="selectwomen" class="practice.Limeroad"/>
+        <method signature="Limeroad.shoppingoffers()[pri:19, instance:practice.Limeroad@204f30ec]" name="shoppingoffers" class="practice.Limeroad"/>
+        <method signature="Limeroad.signin()[pri:10, instance:practice.Limeroad@204f30ec]" name="signin" class="practice.Limeroad"/>
+        <method signature="Limeroad.smartwatches()[pri:12, instance:practice.Limeroad@204f30ec]" name="smartwatches" class="practice.Limeroad"/>
       </group> <!-- regression -->
     </groups>
-    <test name="Test" duration-ms="127838" started-at="2020-05-30T15:37:06Z" finished-at="2020-05-30T15:39:14Z">
+    <test name="Test" duration-ms="197498" started-at="2020-05-31T07:17:10Z" finished-at="2020-05-31T07:20:27Z">
       <class name="practice.Limeroad">
-        <test-method status="PASS" signature="launch(java.lang.String)[pri:5, instance:practice.Limeroad@548e7350]" name="launch" duration-ms="52990" started-at="2020-05-30T21:07:07Z" finished-at="2020-05-30T21:07:59Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="22" started-at="2020-05-31T12:47:10Z" finished-at="2020-05-31T12:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:4, instance:practice.Limeroad@204f30ec]" name="launch" duration-ms="36614" started-at="2020-05-31T12:47:10Z" finished-at="2020-05-31T12:47:46Z">
           <params>
             <param index="0">
               <value>
@@ -29,41 +37,116 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="pagetitleurl()[pri:8, instance:practice.Limeroad@548e7350]" name="pagetitleurl" duration-ms="1797" started-at="2020-05-30T21:08:00Z" finished-at="2020-05-30T21:08:01Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:47:46Z" finished-at="2020-05-31T12:47:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pagetitleurl -->
-        <test-method status="PASS" signature="selectlanguage()[pri:8, instance:practice.Limeroad@548e7350]" name="selectlanguage" duration-ms="1113" started-at="2020-05-30T21:08:01Z" finished-at="2020-05-30T21:08:02Z">
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:47:46Z" finished-at="2020-05-31T12:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="pagetitleurlgoogle()[pri:6, instance:practice.Limeroad@204f30ec]" name="pagetitleurlgoogle" duration-ms="40" started-at="2020-05-31T12:47:46Z" finished-at="2020-05-31T12:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitleurlgoogle -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:47:46Z" finished-at="2020-05-31T12:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Lime(java.lang.String)[pri:7, instance:practice.Limeroad@204f30ec]" name="Lime" duration-ms="49723" started-at="2020-05-31T12:47:46Z" finished-at="2020-05-31T12:48:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.limeroad.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lime -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:47:46Z" finished-at="2020-05-31T12:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:48:36Z" finished-at="2020-05-31T12:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:36Z" finished-at="2020-05-31T12:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="pagetitleurllimeroad()[pri:8, instance:practice.Limeroad@204f30ec]" name="pagetitleurllimeroad" duration-ms="28" started-at="2020-05-31T12:48:36Z" finished-at="2020-05-31T12:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitleurllimeroad -->
+        <test-method status="PASS" signature="selectlanguage()[pri:8, instance:practice.Limeroad@204f30ec]" name="selectlanguage" duration-ms="13899" started-at="2020-05-31T12:48:36Z" finished-at="2020-05-31T12:48:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectlanguage -->
-        <test-method status="FAIL" signature="selectwomen()[pri:9, instance:practice.Limeroad@548e7350]" name="selectwomen" duration-ms="1916" started-at="2020-05-30T21:08:02Z" finished-at="2020-05-30T21:08:04Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:36Z" finished-at="2020-05-31T12:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:36Z" finished-at="2020-05-31T12:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:50Z" finished-at="2020-05-31T12:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:50Z" finished-at="2020-05-31T12:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="selectwomen()[pri:9, instance:practice.Limeroad@204f30ec]" name="selectwomen" duration-ms="2240" started-at="2020-05-31T12:48:50Z" finished-at="2020-05-31T12:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectwomen -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:52Z" finished-at="2020-05-31T12:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="menupage()[pri:10, instance:practice.Limeroad@204f30ec]" name="menupage" duration-ms="3208" started-at="2020-05-31T12:48:52Z" finished-at="2020-05-31T12:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menupage -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:52Z" finished-at="2020-05-31T12:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:56Z" finished-at="2020-05-31T12:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="signin()[pri:10, instance:practice.Limeroad@204f30ec]" name="signin" duration-ms="9530" started-at="2020-05-31T12:48:56Z" finished-at="2020-05-31T12:49:05Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='SHOP WOMEN']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='otp']"}
   (Session info: chrome=81.0.4044.138)
   (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: 183562446a61c7fd813f31d5e1f3cd17
-*** Element info: {Using=xpath, value=//span[text()='SHOP WOMEN']}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a
+*** Element info: {Using=xpath, value=//input[@id='otp']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='SHOP WOMEN']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='otp']"}
   (Session info: chrome=81.0.4044.138)
   (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: 183562446a61c7fd813f31d5e1f3cd17
-*** Element info: {Using=xpath, value=//span[text()='SHOP WOMEN']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a
+*** Element info: {Using=xpath, value=//input[@id='otp']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -80,7 +163,7 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
-	at practice.Limeroad.selectwomen(Limeroad.java:60)
+	at practice.Limeroad.signin(Limeroad.java:177)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -111,20 +194,32 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectwomen -->
-        <test-method status="PASS" signature="menupage()[pri:10, instance:practice.Limeroad@548e7350]" name="menupage" duration-ms="4165" started-at="2020-05-30T21:08:04Z" finished-at="2020-05-30T21:08:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- menupage -->
-        <test-method status="PASS" signature="signin()[pri:10, instance:practice.Limeroad@548e7350]" name="signin" duration-ms="24104" started-at="2020-05-30T21:08:09Z" finished-at="2020-05-30T21:08:33Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="smartwatches()[pri:12, instance:practice.Limeroad@548e7350]" name="smartwatches" duration-ms="9086" started-at="2020-05-30T21:08:33Z" finished-at="2020-05-30T21:08:42Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:48:56Z" finished-at="2020-05-31T12:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:05Z" finished-at="2020-05-31T12:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="smartwatches()[pri:12, instance:practice.Limeroad@204f30ec]" name="smartwatches" duration-ms="9623" started-at="2020-05-31T12:49:05Z" finished-at="2020-05-31T12:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smartwatches -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1708" started-at="2020-05-30T21:08:42Z" data-provider="search" finished-at="2020-05-30T21:08:43Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:05Z" finished-at="2020-05-31T12:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:15Z" finished-at="2020-05-31T12:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:15Z" finished-at="2020-05-31T12:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1366" started-at="2020-05-31T12:49:15Z" data-provider="search" finished-at="2020-05-31T12:49:16Z">
           <params>
             <param index="0">
               <value>
@@ -135,7 +230,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1326" started-at="2020-05-30T21:08:43Z" data-provider="search" finished-at="2020-05-30T21:08:45Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:16Z" finished-at="2020-05-31T12:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:16Z" finished-at="2020-05-31T12:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1557" started-at="2020-05-31T12:49:16Z" data-provider="search" finished-at="2020-05-31T12:49:18Z">
           <params>
             <param index="0">
               <value>
@@ -146,7 +249,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1285" started-at="2020-05-30T21:08:45Z" data-provider="search" finished-at="2020-05-30T21:08:46Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:18Z" finished-at="2020-05-31T12:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:18Z" finished-at="2020-05-31T12:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1487" started-at="2020-05-31T12:49:18Z" data-provider="search" finished-at="2020-05-31T12:49:19Z">
           <params>
             <param index="0">
               <value>
@@ -157,7 +268,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1297" started-at="2020-05-30T21:08:46Z" data-provider="search" finished-at="2020-05-30T21:08:47Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:19Z" finished-at="2020-05-31T12:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:19Z" finished-at="2020-05-31T12:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1573" started-at="2020-05-31T12:49:19Z" data-provider="search" finished-at="2020-05-31T12:49:21Z">
           <params>
             <param index="0">
               <value>
@@ -168,7 +287,7 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1355" started-at="2020-05-30T21:08:47Z" data-provider="search" finished-at="2020-05-30T21:08:49Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1708" started-at="2020-05-31T12:49:21Z" data-provider="search" finished-at="2020-05-31T12:49:22Z">
           <params>
             <param index="0">
               <value>
@@ -179,7 +298,23 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1329" started-at="2020-05-30T21:08:49Z" data-provider="search" finished-at="2020-05-30T21:08:50Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:21Z" finished-at="2020-05-31T12:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:21Z" finished-at="2020-05-31T12:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:22Z" finished-at="2020-05-31T12:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:22Z" finished-at="2020-05-31T12:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1518" started-at="2020-05-31T12:49:22Z" data-provider="search" finished-at="2020-05-31T12:49:24Z">
           <params>
             <param index="0">
               <value>
@@ -190,7 +325,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1348" started-at="2020-05-30T21:08:50Z" data-provider="search" finished-at="2020-05-30T21:08:51Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:24Z" finished-at="2020-05-31T12:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:24Z" finished-at="2020-05-31T12:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1429" started-at="2020-05-31T12:49:24Z" data-provider="search" finished-at="2020-05-31T12:49:25Z">
           <params>
             <param index="0">
               <value>
@@ -201,7 +344,11 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1375" started-at="2020-05-30T21:08:51Z" data-provider="search" finished-at="2020-05-30T21:08:53Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:25Z" finished-at="2020-05-31T12:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1551" started-at="2020-05-31T12:49:25Z" data-provider="search" finished-at="2020-05-31T12:49:27Z">
           <params>
             <param index="0">
               <value>
@@ -212,7 +359,19 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1314" started-at="2020-05-30T21:08:53Z" data-provider="search" finished-at="2020-05-30T21:08:54Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:25Z" finished-at="2020-05-31T12:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:27Z" finished-at="2020-05-31T12:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:27Z" finished-at="2020-05-31T12:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1706" started-at="2020-05-31T12:49:27Z" data-provider="search" finished-at="2020-05-31T12:49:29Z">
           <params>
             <param index="0">
               <value>
@@ -223,7 +382,11 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1338" started-at="2020-05-30T21:08:54Z" data-provider="search" finished-at="2020-05-30T21:08:55Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:29Z" finished-at="2020-05-31T12:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1539" started-at="2020-05-31T12:49:29Z" data-provider="search" finished-at="2020-05-31T12:49:30Z">
           <params>
             <param index="0">
               <value>
@@ -234,7 +397,19 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1297" started-at="2020-05-30T21:08:55Z" data-provider="search" finished-at="2020-05-30T21:08:57Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:29Z" finished-at="2020-05-31T12:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:30Z" finished-at="2020-05-31T12:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:30Z" finished-at="2020-05-31T12:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1573" started-at="2020-05-31T12:49:30Z" data-provider="search" finished-at="2020-05-31T12:49:32Z">
           <params>
             <param index="0">
               <value>
@@ -245,7 +420,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1351" started-at="2020-05-30T21:08:57Z" data-provider="search" finished-at="2020-05-30T21:08:58Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:32Z" finished-at="2020-05-31T12:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:32Z" finished-at="2020-05-31T12:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1610" started-at="2020-05-31T12:49:32Z" data-provider="search" finished-at="2020-05-31T12:49:33Z">
           <params>
             <param index="0">
               <value>
@@ -256,7 +439,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1290" started-at="2020-05-30T21:08:58Z" data-provider="search" finished-at="2020-05-30T21:08:59Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:33Z" finished-at="2020-05-31T12:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:33Z" finished-at="2020-05-31T12:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1545" started-at="2020-05-31T12:49:33Z" data-provider="search" finished-at="2020-05-31T12:49:35Z">
           <params>
             <param index="0">
               <value>
@@ -267,7 +458,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1391" started-at="2020-05-30T21:08:59Z" data-provider="search" finished-at="2020-05-30T21:09:01Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="2" started-at="2020-05-31T12:49:35Z" finished-at="2020-05-31T12:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:35Z" finished-at="2020-05-31T12:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1345" started-at="2020-05-31T12:49:35Z" data-provider="search" finished-at="2020-05-31T12:49:36Z">
           <params>
             <param index="0">
               <value>
@@ -278,7 +477,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1272" started-at="2020-05-30T21:09:01Z" data-provider="search" finished-at="2020-05-30T21:09:02Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:36Z" finished-at="2020-05-31T12:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:36Z" finished-at="2020-05-31T12:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1407" started-at="2020-05-31T12:49:36Z" data-provider="search" finished-at="2020-05-31T12:49:38Z">
           <params>
             <param index="0">
               <value>
@@ -289,7 +496,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1302" started-at="2020-05-30T21:09:02Z" data-provider="search" finished-at="2020-05-30T21:09:03Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:38Z" finished-at="2020-05-31T12:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:38Z" finished-at="2020-05-31T12:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1487" started-at="2020-05-31T12:49:38Z" data-provider="search" finished-at="2020-05-31T12:49:39Z">
           <params>
             <param index="0">
               <value>
@@ -300,7 +515,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1314" started-at="2020-05-30T21:09:03Z" data-provider="search" finished-at="2020-05-30T21:09:05Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:39Z" finished-at="2020-05-31T12:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:39Z" finished-at="2020-05-31T12:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1376" started-at="2020-05-31T12:49:39Z" data-provider="search" finished-at="2020-05-31T12:49:41Z">
           <params>
             <param index="0">
               <value>
@@ -311,7 +534,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1320" started-at="2020-05-30T21:09:05Z" data-provider="search" finished-at="2020-05-30T21:09:06Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:41Z" finished-at="2020-05-31T12:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:41Z" finished-at="2020-05-31T12:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1442" started-at="2020-05-31T12:49:41Z" data-provider="search" finished-at="2020-05-31T12:49:42Z">
           <params>
             <param index="0">
               <value>
@@ -322,7 +553,11 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1280" started-at="2020-05-30T21:09:06Z" data-provider="search" finished-at="2020-05-30T21:09:07Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:42Z" finished-at="2020-05-31T12:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1578" started-at="2020-05-31T12:49:42Z" data-provider="search" finished-at="2020-05-31T12:49:44Z">
           <params>
             <param index="0">
               <value>
@@ -333,7 +568,19 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@548e7350]" name="searchproduct" duration-ms="1330" started-at="2020-05-30T21:09:07Z" data-provider="search" finished-at="2020-05-30T21:09:09Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:42Z" finished-at="2020-05-31T12:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:44Z" finished-at="2020-05-31T12:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:44Z" finished-at="2020-05-31T12:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1499" started-at="2020-05-31T12:49:44Z" data-provider="search" finished-at="2020-05-31T12:49:45Z">
           <params>
             <param index="0">
               <value>
@@ -344,7 +591,15 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="FAIL" signature="addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@548e7350]" name="addtocart" duration-ms="5690" started-at="2020-05-30T21:09:09Z" finished-at="2020-05-30T21:09:14Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:45Z" finished-at="2020-05-31T12:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:45Z" finished-at="2020-05-31T12:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@204f30ec]" name="addtocart" duration-ms="4193" started-at="2020-05-31T12:49:45Z" finished-at="2020-05-31T12:49:49Z">
           <params>
             <param index="0">
               <value>
@@ -352,32 +607,111 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='bs fs14 p12 pR'])[1]"}
+              <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=81.0.4044.138)
   (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: 183562446a61c7fd813f31d5e1f3cd17
-*** Element info: {Using=xpath, value=(//div[@class='bs fs14 p12 pR'])[1]}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='bs fs14 p12 pR'])[1]"}
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at practice.Limeroad.addtocart(Limeroad.java:240)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:49:49Z" finished-at="2020-05-31T12:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:49:49Z" finished-at="2020-05-31T12:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="shoppingoffers()[pri:19, instance:practice.Limeroad@204f30ec]" name="shoppingoffers" duration-ms="36821" started-at="2020-05-31T12:49:49Z" finished-at="2020-05-31T12:50:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='shop']"}
   (Session info: chrome=81.0.4044.138)
   (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
-System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.43.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
-Session ID: 183562446a61c7fd813f31d5e1f3cd17
-*** Element info: {Using=xpath, value=(//div[@class='bs fs14 p12 pR'])[1]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a
+*** Element info: {Using=xpath, value=//span[text()='shop']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='shop']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a
+*** Element info: {Using=xpath, value=//span[text()='shop']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -394,7 +728,7 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
-	at practice.Limeroad.addtocart(Limeroad.java:154)
+	at practice.Limeroad.shoppingoffers(Limeroad.java:274)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -425,7 +759,94 @@ Session ID: 183562446a61c7fd813f31d5e1f3cd17
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addtocart -->
+        </test-method> <!-- shoppingoffers -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:50:26Z" finished-at="2020-05-31T12:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="FAIL" signature="checkoffer60()[pri:23, instance:practice.Limeroad@204f30ec]" name="checkoffer60" duration-ms="1071" started-at="2020-05-31T12:50:26Z" finished-at="2020-05-31T12:50:27Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='//img0.junaroad.com/catalogues/2390963/5ebc046c22c15.jpg']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a
+*** Element info: {Using=xpath, value=//img[@src='//img0.junaroad.com/catalogues/2390963/5ebc046c22c15.jpg']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='//img0.junaroad.com/catalogues/2390963/5ebc046c22c15.jpg']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49673}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7bdc0e4c3cc02ffaec504af750f0813a
+*** Element info: {Using=xpath, value=//img[@src='//img0.junaroad.com/catalogues/2390963/5ebc046c22c15.jpg']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at practice.Limeroad.checkoffer60(Limeroad.java:297)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoffer60 -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T12:50:26Z" finished-at="2020-05-31T12:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T12:50:27Z" finished-at="2020-05-31T12:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- practice.Limeroad -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
