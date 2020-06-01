@@ -78,7 +78,7 @@ lime.sendKeys(a);
 Thread.sleep(3000);
     TakesScreenshot t=(TakesScreenshot)driver;
     File s = t.getScreenshotAs(OutputType.FILE);
-    File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\topicsingoogle.jpg");
+    File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Topicsingoogle.jpg");
     FileUtils.copyFile(s,d);
 Thread.sleep(1000);
 JavascriptExecutor f=(JavascriptExecutor)driver;
@@ -118,7 +118,7 @@ for (int i = 0; i < 1; i++)
 }
    TakesScreenshot t=(TakesScreenshot)driver;
    File s = t.getScreenshotAs(OutputType.FILE);
-   File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\shopwomen.jpg");
+   File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Shopwomen.jpg");
    FileUtils.copyFile(s,d);
 }
 //--------------------------------women---------------------------------
@@ -177,7 +177,7 @@ for (int i = 0; i < 2; i++)
 }
     TakesScreenshot t=(TakesScreenshot)driver;
     File s = t.getScreenshotAs(OutputType.FILE);
-    File d1 = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\menu.jpg");
+    File d1 = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Menu.jpg");
     FileUtils.copyFile(s,d1);
 }
 
@@ -210,7 +210,7 @@ otp.sendKeys("0805");
 System.out.println("otp : " + otp.getAttribute("value"));
    TakesScreenshot t=(TakesScreenshot)driver;
    File s = t.getScreenshotAs(OutputType.FILE);
-   File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\signin.jpg");
+   File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Signin.jpg");
    FileUtils.copyFile(s,d);
 Thread.sleep(7000);
 driver.navigate().refresh();
@@ -243,7 +243,7 @@ driver.findElement(By.xpath("//a[text()='Smart Watches']")).click();
 Thread.sleep(3000);
     TakesScreenshot t=(TakesScreenshot)driver;
     File s = t.getScreenshotAs(OutputType.FILE);
-    File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\smartwatches.jpg");
+    File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Smartwatches.jpg");
     FileUtils.copyFile(s,d);
 driver.findElement(By.xpath("//a[@class='pA t0 r60 m128 w24 h24 srch z5 dN an-srch']")).click(); 	
 }
@@ -254,11 +254,15 @@ private void searchproduct(String s1) throws InterruptedException
 	       //dataprovider
 Thread.sleep(1000);
 System.out.println("---------------------search product----------------------------------");
-WebElement send = driver.findElement(By.xpath("//input[@type='search']"));
-send.clear();
-send.sendKeys(s1);
+try
+{
+WebElement send1 = driver.findElement(By.xpath("//input[@type='search']"));
+send1.clear();
+send1.sendKeys(s1);
 System.out.println("..................search products.....................");
 System.out.println("i am searching the product with low price :" + s1);
+}
+catch(Exception e) {}
 }
 
 @Parameters({"search"})
@@ -301,7 +305,7 @@ Thread.sleep(5000);
 Thread.sleep(9000);
      TakesScreenshot t=(TakesScreenshot)driver;
 	 File s1 = t.getScreenshotAs(OutputType.FILE);
-	 File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\printpage.jpg");
+	 File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Printpage.jpg");
 	 FileUtils.copyFile(s1,d);
 }
 
@@ -402,7 +406,7 @@ WebElement like = driver.findElement(By.xpath("//div[@class='pR hbxs bgL br4 bxs
 like.click();
     TakesScreenshot t5=(TakesScreenshot)driver;
     File s8 = t5.getScreenshotAs(OutputType.FILE);
-    File d8= new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\like.jpg");
+    File d8= new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\Limeroadscreenshot\\like.jpg");
     FileUtils.copyFile(s8,d8);
 Thread.sleep(3000);
 driver.navigate().back();
@@ -423,15 +427,17 @@ driver.findElement(By.xpath("//div[text()='ADD TO CART']")).click();
 Thread.sleep(9000);
     TakesScreenshot t=(TakesScreenshot)driver;
     File s1 = t.getScreenshotAs(OutputType.FILE);
-    File d1= new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\addtocart.jpg");
+    File d1= new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Addtocart.jpg");
     FileUtils.copyFile(s1,d1);
 System.out.println("............summary..............");
 Thread.sleep(3000);
 String summary = driver.findElement(By.xpath("//div[@class='p12 bs mA mw460 fs14 c3']")).getText();
+System.out.println(summary);
+Thread.sleep(3000);
 driver.findElement(By.xpath("//div[@class='bs mA mw460 p4']")).click();
     TakesScreenshot t1=(TakesScreenshot)driver;
     File s2 = t.getScreenshotAs(OutputType.FILE);
-    File d2= new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\buynow.jpg");
+    File d2= new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Buynow.jpg");
     FileUtils.copyFile(s2,d2);
 }
 
@@ -474,90 +480,8 @@ System.out.println("....................lime road details..................");
     catch(Exception e) {}
      }
 Thread.sleep(5000);
-    for (int i = 0; i < 1; i++) 
-     {
-	   driver.navigate().back();
-     }
-   // driver.findElement(By.xpath("(//img[@class='wp100 an-ll o0'])[3]")).click();
-  //  Thread.sleep(4000);
-    for (int i = 0; i < under.size(); i++) 
-     {
-    	try
-    	{
-	   WebElement t= under.get(7);
-	   l.executeScript("arguments[0].scrollIntoView(true)",t);
-	   Actions k=new Actions(driver);
-       k.click(t);
-       Thread.sleep(2000);
-	   String termsuse = driver.findElement(By.xpath("//div[@class='bgF br4 bs bxs c6 fs15 mA mxw960 p16 taL']")).getText();
-       System.out.println("................terms of use................");
-       System.out.println(termsuse);
-    	}
-    	catch(Exception e) {}
- }
-Thread.sleep(4000);
-driver.navigate().back();
-    for (int i = 0; i < under.size(); i++) 
-      {
-    	try
-    	{
-		WebElement privacy1 = under.get(8);
-		l.executeScript("arguments[0].scrollIntoView(true)",privacy1);
-		Actions k=new Actions(driver);
-	    k.click(privacy1);
-	    Thread.sleep(2000);
-		String policy = driver.findElement(By.xpath("//div[@class='bgF br4 bs bxs c6 fs15 mA mxw960 p16 taL']")).getText();
-		System.out.println(".................privacy policy...................");
-		System.out.println(policy);
-    	}
-    	catch(Exception e) {}
-	}
-Thread.sleep(3000);
-driver.navigate().back();
-    for (int i = 0; i < under.size(); i++) 
-      {
-    	try
-    	{
-	    WebElement faq1 = under.get(4);
-	    l.executeScript("arguments[0].scrollIntoView(true)",faq1);
-	    Actions k=new Actions(driver);
-	    k.click(faq1);
-	    Thread.sleep(3000);
-	    List<WebElement> related = driver.findElements(By.xpath("//div[@class='bdbE c3 dB fs15 has-sub p12 pR']"));
-	 
-	     for (int j = 0; j < related.size(); j++)
-	      {
-		    WebElement click = related.get(9);
-		    Actions k1=new Actions(driver);
-		    k.click(click);
-	      }
-    	}
-    	catch(Exception e) {}
-      }
-Thread.sleep(5000);
-	TakesScreenshot t5=(TakesScreenshot)driver;
-	File s8 = t5.getScreenshotAs(OutputType.FILE);
-	File d8= new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Limeroadgoldrelated.jpg");
-	FileUtils.copyFile(s8,d8);
-	 
-WebElement plus = driver.findElement(By.xpath("//div[text()='What is LimeRoad GOLD?']"));
-Actions n=new Actions(driver);
-n.contextClick(plus).perform();
-Thread.sleep(5000);
-   Robot r=new Robot();
-   for (int i = 0; i <9; i++)
-    {
-	  r.keyPress(KeyEvent.VK_DOWN);
-	  r.keyRelease(KeyEvent.VK_DOWN);
-	}
-      r.keyPress(KeyEvent.VK_ENTER);
-	  r.keyRelease(KeyEvent.VK_ENTER);
-Thread.sleep(9000);
-System.out.println("................................saving as pdf.............................");
-     TakesScreenshot t=(TakesScreenshot)driver;
-	 File s1 = t.getScreenshotAs(OutputType.FILE);
-	 File d = new File("C:\\Users\\91984\\Desktop\\clone\\collectionrepo\\limeroadscreenshot\\Pdf.jpg");
-	 FileUtils.copyFile(s1,d);
+//driver.navigate().back();
+     
 
     
 }

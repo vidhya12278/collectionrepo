@@ -20,9 +20,9 @@
     <classes>
       <class name="practice.Limeroad">
         <methods>
-          <include name="selectwomen"/>
-          <include name="signin"/>
-          <include name="shoppingoffers"/>
+          <include name="inside"/>
+          <include name="end"/>
+          <include name="start"/>
         </methods>
       </class> <!-- practice.Limeroad -->
     </classes>
