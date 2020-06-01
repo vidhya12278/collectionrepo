@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="33" passed="33">
+<testng-results skipped="0" failed="1" total="34" passed="33">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="208226" started-at="2020-05-31T10:48:02Z" finished-at="2020-05-31T10:51:31Z">
+  <suite name="Suite" duration-ms="221502" started-at="2020-06-01T03:39:18Z" finished-at="2020-06-01T03:43:00Z">
     <groups>
       <group name="regression">
-        <method signature="Limeroad.Lime(java.lang.String)[pri:7, instance:practice.Limeroad@204f30ec]" name="Lime" class="practice.Limeroad"/>
-        <method signature="Limeroad.addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@204f30ec]" name="addtocart" class="practice.Limeroad"/>
+        <method signature="Limeroad.checkoffer50()[pri:25, instance:practice.Limeroad@204f30ec]" name="checkoffer50" class="practice.Limeroad"/>
         <method signature="Limeroad.checkoffer60()[pri:23, instance:practice.Limeroad@204f30ec]" name="checkoffer60" class="practice.Limeroad"/>
-        <method signature="Limeroad.checkoutoffer70()[pri:25, instance:practice.Limeroad@204f30ec]" name="checkoutoffer70" class="practice.Limeroad"/>
+        <method signature="Limeroad.googletitleurl()[pri:6, instance:practice.Limeroad@204f30ec]" name="googletitleurl" class="practice.Limeroad"/>
+        <method signature="Limeroad.inside()[pri:27, instance:practice.Limeroad@204f30ec]" name="inside" class="practice.Limeroad"/>
         <method signature="Limeroad.launch(java.lang.String)[pri:4, instance:practice.Limeroad@204f30ec]" name="launch" class="practice.Limeroad"/>
+        <method signature="Limeroad.limeroadtitleurl()[pri:8, instance:practice.Limeroad@204f30ec]" name="limeroadtitleurl" class="practice.Limeroad"/>
         <method signature="Limeroad.menupage()[pri:10, instance:practice.Limeroad@204f30ec]" name="menupage" class="practice.Limeroad"/>
-        <method signature="Limeroad.pagetitleurlgoogle()[pri:6, instance:practice.Limeroad@204f30ec]" name="pagetitleurlgoogle" class="practice.Limeroad"/>
-        <method signature="Limeroad.pagetitleurllimeroad()[pri:8, instance:practice.Limeroad@204f30ec]" name="pagetitleurllimeroad" class="practice.Limeroad"/>
+        <method signature="Limeroad.rightclick(java.lang.String)[pri:16, instance:practice.Limeroad@204f30ec]" name="rightclick" class="practice.Limeroad"/>
+        <method signature="Limeroad.searchlimeroad(java.lang.String)[pri:7, instance:practice.Limeroad@204f30ec]" name="searchlimeroad" class="practice.Limeroad"/>
         <method signature="Limeroad.searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" class="practice.Limeroad"/>
         <method signature="Limeroad.selectlanguage()[pri:8, instance:practice.Limeroad@204f30ec]" name="selectlanguage" class="practice.Limeroad"/>
         <method signature="Limeroad.selectwomen()[pri:9, instance:practice.Limeroad@204f30ec]" name="selectwomen" class="practice.Limeroad"/>
@@ -21,13 +22,13 @@
         <method signature="Limeroad.smartwatches()[pri:12, instance:practice.Limeroad@204f30ec]" name="smartwatches" class="practice.Limeroad"/>
       </group> <!-- regression -->
     </groups>
-    <test name="Test" duration-ms="208226" started-at="2020-05-31T10:48:02Z" finished-at="2020-05-31T10:51:31Z">
+    <test name="Test" duration-ms="221502" started-at="2020-06-01T03:39:18Z" finished-at="2020-06-01T03:43:00Z">
       <class name="practice.Limeroad">
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="31" started-at="2020-05-31T16:18:02Z" finished-at="2020-05-31T16:18:02Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="22" started-at="2020-06-01T09:09:18Z" finished-at="2020-06-01T09:09:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="launch(java.lang.String)[pri:4, instance:practice.Limeroad@204f30ec]" name="launch" duration-ms="22343" started-at="2020-05-31T16:18:02Z" finished-at="2020-05-31T16:18:25Z">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:4, instance:practice.Limeroad@204f30ec]" name="launch" duration-ms="12625" started-at="2020-06-01T09:09:18Z" finished-at="2020-06-01T09:09:31Z">
           <params>
             <param index="0">
               <value>
@@ -38,23 +39,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:18:25Z" finished-at="2020-05-31T16:18:25Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:31Z" finished-at="2020-06-01T09:09:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="pagetitleurlgoogle()[pri:6, instance:practice.Limeroad@204f30ec]" name="pagetitleurlgoogle" duration-ms="17" started-at="2020-05-31T16:18:25Z" finished-at="2020-05-31T16:18:25Z">
+        <test-method status="PASS" signature="googletitleurl()[pri:6, instance:practice.Limeroad@204f30ec]" name="googletitleurl" duration-ms="26" started-at="2020-06-01T09:09:31Z" finished-at="2020-06-01T09:09:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pagetitleurlgoogle -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:18:25Z" finished-at="2020-05-31T16:18:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:18:25Z" finished-at="2020-05-31T16:18:25Z">
+        </test-method> <!-- googletitleurl -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:31Z" finished-at="2020-06-01T09:09:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="Lime(java.lang.String)[pri:7, instance:practice.Limeroad@204f30ec]" name="Lime" duration-ms="15867" started-at="2020-05-31T16:18:25Z" finished-at="2020-05-31T16:18:41Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:31Z" finished-at="2020-06-01T09:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:31Z" finished-at="2020-06-01T09:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchlimeroad(java.lang.String)[pri:7, instance:practice.Limeroad@204f30ec]" name="searchlimeroad" duration-ms="10893" started-at="2020-06-01T09:09:31Z" finished-at="2020-06-01T09:09:42Z">
           <params>
             <param index="0">
               <value>
@@ -64,92 +69,84 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Lime -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:18:25Z" finished-at="2020-05-31T16:18:25Z">
+        </test-method> <!-- searchlimeroad -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:09:42Z" finished-at="2020-06-01T09:09:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:18:41Z" finished-at="2020-05-31T16:18:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:18:41Z" finished-at="2020-05-31T16:18:41Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:42Z" finished-at="2020-06-01T09:09:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="pagetitleurllimeroad()[pri:8, instance:practice.Limeroad@204f30ec]" name="pagetitleurllimeroad" duration-ms="1111" started-at="2020-05-31T16:18:41Z" finished-at="2020-05-31T16:18:42Z">
+        <test-method status="PASS" signature="limeroadtitleurl()[pri:8, instance:practice.Limeroad@204f30ec]" name="limeroadtitleurl" duration-ms="716" started-at="2020-06-01T09:09:42Z" finished-at="2020-06-01T09:09:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pagetitleurllimeroad -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:18:42Z" finished-at="2020-05-31T16:18:42Z">
+        </test-method> <!-- limeroadtitleurl -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:43Z" finished-at="2020-06-01T09:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="selectlanguage()[pri:8, instance:practice.Limeroad@204f30ec]" name="selectlanguage" duration-ms="34187" started-at="2020-05-31T16:18:42Z" finished-at="2020-05-31T16:19:16Z">
+        <test-method status="PASS" signature="selectlanguage()[pri:8, instance:practice.Limeroad@204f30ec]" name="selectlanguage" duration-ms="4972" started-at="2020-06-01T09:09:43Z" finished-at="2020-06-01T09:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectlanguage -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:18:42Z" finished-at="2020-05-31T16:18:42Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:43Z" finished-at="2020-06-01T09:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="4" started-at="2020-05-31T16:19:16Z" finished-at="2020-05-31T16:19:16Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="2" started-at="2020-06-01T09:09:48Z" finished-at="2020-06-01T09:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:16Z" finished-at="2020-05-31T16:19:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="selectwomen()[pri:9, instance:practice.Limeroad@204f30ec]" name="selectwomen" duration-ms="2056" started-at="2020-05-31T16:19:16Z" finished-at="2020-05-31T16:19:18Z">
+        <test-method status="PASS" signature="selectwomen()[pri:9, instance:practice.Limeroad@204f30ec]" name="selectwomen" duration-ms="1155" started-at="2020-06-01T09:09:48Z" finished-at="2020-06-01T09:09:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectwomen -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:19:18Z" finished-at="2020-05-31T16:19:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:19:18Z" finished-at="2020-05-31T16:19:18Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:48Z" finished-at="2020-06-01T09:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="menupage()[pri:10, instance:practice.Limeroad@204f30ec]" name="menupage" duration-ms="4729" started-at="2020-05-31T16:19:18Z" finished-at="2020-05-31T16:19:23Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:49Z" finished-at="2020-06-01T09:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:09:49Z" finished-at="2020-06-01T09:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="menupage()[pri:10, instance:practice.Limeroad@204f30ec]" name="menupage" duration-ms="3589" started-at="2020-06-01T09:09:49Z" finished-at="2020-06-01T09:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menupage -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:19:23Z" finished-at="2020-05-31T16:19:23Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="2" started-at="2020-06-01T09:09:52Z" finished-at="2020-06-01T09:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:19:23Z" finished-at="2020-05-31T16:19:23Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-06-01T09:09:52Z" finished-at="2020-06-01T09:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="signin()[pri:10, instance:practice.Limeroad@204f30ec]" name="signin" duration-ms="23024" started-at="2020-05-31T16:19:23Z" finished-at="2020-05-31T16:19:46Z">
+        <test-method status="PASS" signature="signin()[pri:10, instance:practice.Limeroad@204f30ec]" name="signin" duration-ms="22562" started-at="2020-06-01T09:09:52Z" finished-at="2020-06-01T09:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:46Z" finished-at="2020-05-31T16:19:46Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:15Z" finished-at="2020-06-01T09:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:19:46Z" finished-at="2020-05-31T16:19:46Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:15Z" finished-at="2020-06-01T09:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="smartwatches()[pri:12, instance:practice.Limeroad@204f30ec]" name="smartwatches" duration-ms="9121" started-at="2020-05-31T16:19:46Z" finished-at="2020-05-31T16:19:55Z">
+        <test-method status="PASS" signature="smartwatches()[pri:12, instance:practice.Limeroad@204f30ec]" name="smartwatches" duration-ms="9622" started-at="2020-06-01T09:10:15Z" finished-at="2020-06-01T09:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smartwatches -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:19:55Z" finished-at="2020-05-31T16:19:55Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:25Z" finished-at="2020-06-01T09:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:55Z" finished-at="2020-05-31T16:19:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1329" started-at="2020-05-31T16:19:55Z" data-provider="search" finished-at="2020-05-31T16:19:56Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1648" started-at="2020-06-01T09:10:25Z" data-provider="search" finished-at="2020-06-01T09:10:26Z">
           <params>
             <param index="0">
               <value>
@@ -160,15 +157,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:56Z" finished-at="2020-05-31T16:19:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:56Z" finished-at="2020-05-31T16:19:56Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:25Z" finished-at="2020-06-01T09:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1327" started-at="2020-05-31T16:19:56Z" data-provider="search" finished-at="2020-05-31T16:19:58Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:26Z" finished-at="2020-06-01T09:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1574" started-at="2020-06-01T09:10:26Z" data-provider="search" finished-at="2020-06-01T09:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -179,15 +176,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:58Z" finished-at="2020-05-31T16:19:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:58Z" finished-at="2020-05-31T16:19:58Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:26Z" finished-at="2020-06-01T09:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1327" started-at="2020-05-31T16:19:58Z" data-provider="search" finished-at="2020-05-31T16:19:59Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:28Z" finished-at="2020-06-01T09:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:28Z" finished-at="2020-06-01T09:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1499" started-at="2020-06-01T09:10:28Z" data-provider="search" finished-at="2020-06-01T09:10:29Z">
           <params>
             <param index="0">
               <value>
@@ -198,15 +199,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:19:59Z" finished-at="2020-05-31T16:19:59Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:29Z" finished-at="2020-06-01T09:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:19:59Z" finished-at="2020-05-31T16:19:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1348" started-at="2020-05-31T16:19:59Z" data-provider="search" finished-at="2020-05-31T16:20:00Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1587" started-at="2020-06-01T09:10:29Z" data-provider="search" finished-at="2020-06-01T09:10:31Z">
           <params>
             <param index="0">
               <value>
@@ -217,15 +214,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:00Z" finished-at="2020-05-31T16:20:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:00Z" finished-at="2020-05-31T16:20:00Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:29Z" finished-at="2020-06-01T09:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1299" started-at="2020-05-31T16:20:00Z" data-provider="search" finished-at="2020-05-31T16:20:02Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="2" started-at="2020-06-01T09:10:31Z" finished-at="2020-06-01T09:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:31Z" finished-at="2020-06-01T09:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1506" started-at="2020-06-01T09:10:31Z" data-provider="search" finished-at="2020-06-01T09:10:32Z">
           <params>
             <param index="0">
               <value>
@@ -236,15 +237,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:02Z" finished-at="2020-05-31T16:20:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:02Z" finished-at="2020-05-31T16:20:02Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:32Z" finished-at="2020-06-01T09:10:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1296" started-at="2020-05-31T16:20:02Z" data-provider="search" finished-at="2020-05-31T16:20:03Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:32Z" finished-at="2020-06-01T09:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1561" started-at="2020-06-01T09:10:32Z" data-provider="search" finished-at="2020-06-01T09:10:34Z">
           <params>
             <param index="0">
               <value>
@@ -255,15 +256,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:03Z" finished-at="2020-05-31T16:20:03Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:34Z" finished-at="2020-06-01T09:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:03Z" finished-at="2020-05-31T16:20:03Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:34Z" finished-at="2020-06-01T09:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1340" started-at="2020-05-31T16:20:03Z" data-provider="search" finished-at="2020-05-31T16:20:04Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1543" started-at="2020-06-01T09:10:34Z" data-provider="search" finished-at="2020-06-01T09:10:36Z">
           <params>
             <param index="0">
               <value>
@@ -274,11 +275,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="2" started-at="2020-05-31T16:20:04Z" finished-at="2020-05-31T16:20:04Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:36Z" finished-at="2020-06-01T09:10:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1292" started-at="2020-05-31T16:20:04Z" data-provider="search" finished-at="2020-05-31T16:20:06Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:36Z" finished-at="2020-06-01T09:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1522" started-at="2020-06-01T09:10:36Z" data-provider="search" finished-at="2020-06-01T09:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -289,19 +294,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:04Z" finished-at="2020-05-31T16:20:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:06Z" finished-at="2020-05-31T16:20:06Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:37Z" finished-at="2020-06-01T09:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:06Z" finished-at="2020-05-31T16:20:06Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:37Z" finished-at="2020-06-01T09:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1288" started-at="2020-05-31T16:20:06Z" data-provider="search" finished-at="2020-05-31T16:20:07Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1390" started-at="2020-06-01T09:10:37Z" data-provider="search" finished-at="2020-06-01T09:10:38Z">
           <params>
             <param index="0">
               <value>
@@ -312,11 +313,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:07Z" finished-at="2020-05-31T16:20:07Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:38Z" finished-at="2020-06-01T09:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1304" started-at="2020-05-31T16:20:07Z" data-provider="search" finished-at="2020-05-31T16:20:08Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1438" started-at="2020-06-01T09:10:38Z" data-provider="search" finished-at="2020-06-01T09:10:40Z">
           <params>
             <param index="0">
               <value>
@@ -327,15 +328,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:07Z" finished-at="2020-05-31T16:20:07Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:38Z" finished-at="2020-06-01T09:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:08Z" finished-at="2020-05-31T16:20:08Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:40Z" finished-at="2020-06-01T09:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1338" started-at="2020-05-31T16:20:08Z" data-provider="search" finished-at="2020-05-31T16:20:09Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:40Z" finished-at="2020-06-01T09:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1524" started-at="2020-06-01T09:10:40Z" data-provider="search" finished-at="2020-06-01T09:10:41Z">
           <params>
             <param index="0">
               <value>
@@ -346,19 +351,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:08Z" finished-at="2020-05-31T16:20:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:09Z" finished-at="2020-05-31T16:20:09Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:41Z" finished-at="2020-06-01T09:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:09Z" finished-at="2020-05-31T16:20:09Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:41Z" finished-at="2020-06-01T09:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1321" started-at="2020-05-31T16:20:09Z" data-provider="search" finished-at="2020-05-31T16:20:11Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1467" started-at="2020-06-01T09:10:41Z" data-provider="search" finished-at="2020-06-01T09:10:43Z">
           <params>
             <param index="0">
               <value>
@@ -369,15 +370,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:11Z" finished-at="2020-05-31T16:20:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:11Z" finished-at="2020-05-31T16:20:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1259" started-at="2020-05-31T16:20:11Z" data-provider="search" finished-at="2020-05-31T16:20:12Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1571" started-at="2020-06-01T09:10:43Z" data-provider="search" finished-at="2020-06-01T09:10:45Z">
           <params>
             <param index="0">
               <value>
@@ -388,15 +381,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:12Z" finished-at="2020-05-31T16:20:12Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:43Z" finished-at="2020-06-01T09:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:12Z" finished-at="2020-05-31T16:20:12Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:43Z" finished-at="2020-06-01T09:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1272" started-at="2020-05-31T16:20:12Z" data-provider="search" finished-at="2020-05-31T16:20:13Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:45Z" finished-at="2020-06-01T09:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:45Z" finished-at="2020-06-01T09:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1469" started-at="2020-06-01T09:10:45Z" data-provider="search" finished-at="2020-06-01T09:10:46Z">
           <params>
             <param index="0">
               <value>
@@ -407,11 +408,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:13Z" finished-at="2020-05-31T16:20:13Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:46Z" finished-at="2020-06-01T09:10:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1246" started-at="2020-05-31T16:20:13Z" data-provider="search" finished-at="2020-05-31T16:20:15Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:46Z" finished-at="2020-06-01T09:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1535" started-at="2020-06-01T09:10:46Z" data-provider="search" finished-at="2020-06-01T09:10:48Z">
           <params>
             <param index="0">
               <value>
@@ -422,19 +427,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:13Z" finished-at="2020-05-31T16:20:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:15Z" finished-at="2020-05-31T16:20:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:15Z" finished-at="2020-05-31T16:20:15Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:48Z" finished-at="2020-06-01T09:10:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1263" started-at="2020-05-31T16:20:15Z" data-provider="search" finished-at="2020-05-31T16:20:16Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:48Z" finished-at="2020-06-01T09:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1549" started-at="2020-06-01T09:10:48Z" data-provider="search" finished-at="2020-06-01T09:10:49Z">
           <params>
             <param index="0">
               <value>
@@ -445,15 +446,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:16Z" finished-at="2020-05-31T16:20:16Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="2" started-at="2020-06-01T09:10:49Z" finished-at="2020-06-01T09:10:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:16Z" finished-at="2020-05-31T16:20:16Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-06-01T09:10:49Z" finished-at="2020-06-01T09:10:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1279" started-at="2020-05-31T16:20:16Z" data-provider="search" finished-at="2020-05-31T16:20:17Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1616" started-at="2020-06-01T09:10:49Z" data-provider="search" finished-at="2020-06-01T09:10:51Z">
           <params>
             <param index="0">
               <value>
@@ -464,15 +465,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-05-31T16:20:17Z" finished-at="2020-05-31T16:20:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:17Z" finished-at="2020-05-31T16:20:17Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="2" started-at="2020-06-01T09:10:51Z" finished-at="2020-06-01T09:10:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1329" started-at="2020-05-31T16:20:17Z" data-provider="search" finished-at="2020-05-31T16:20:18Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:51Z" finished-at="2020-06-01T09:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1633" started-at="2020-06-01T09:10:51Z" data-provider="search" finished-at="2020-06-01T09:10:52Z">
           <params>
             <param index="0">
               <value>
@@ -483,15 +484,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:18Z" finished-at="2020-05-31T16:20:18Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:52Z" finished-at="2020-06-01T09:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:18Z" finished-at="2020-05-31T16:20:18Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:52Z" finished-at="2020-06-01T09:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1359" started-at="2020-05-31T16:20:18Z" data-provider="search" finished-at="2020-05-31T16:20:20Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1539" started-at="2020-06-01T09:10:52Z" data-provider="search" finished-at="2020-06-01T09:10:54Z">
           <params>
             <param index="0">
               <value>
@@ -502,11 +503,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:20Z" finished-at="2020-05-31T16:20:20Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:54Z" finished-at="2020-06-01T09:10:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1375" started-at="2020-05-31T16:20:20Z" data-provider="search" finished-at="2020-05-31T16:20:21Z">
+        <test-method status="PASS" signature="searchproduct(java.lang.String)[pri:14, instance:practice.Limeroad@204f30ec]" name="searchproduct" duration-ms="1529" started-at="2020-06-01T09:10:54Z" data-provider="search" finished-at="2020-06-01T09:10:55Z">
           <params>
             <param index="0">
               <value>
@@ -517,15 +518,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchproduct -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:20Z" finished-at="2020-05-31T16:20:20Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:54Z" finished-at="2020-06-01T09:10:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:21Z" finished-at="2020-05-31T16:20:21Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:55Z" finished-at="2020-06-01T09:10:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="addtocart(java.lang.String)[pri:16, instance:practice.Limeroad@204f30ec]" name="addtocart" duration-ms="17771" started-at="2020-05-31T16:20:21Z" finished-at="2020-05-31T16:20:39Z">
+        <test-method status="PASS" signature="rightclick(java.lang.String)[pri:16, instance:practice.Limeroad@204f30ec]" name="rightclick" duration-ms="22674" started-at="2020-06-01T09:10:55Z" finished-at="2020-06-01T09:11:18Z">
           <params>
             <param index="0">
               <value>
@@ -535,48 +536,131 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addtocart -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:21Z" finished-at="2020-05-31T16:20:21Z">
+        </test-method> <!-- rightclick -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:10:55Z" finished-at="2020-06-01T09:10:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="shoppingoffers()[pri:19, instance:practice.Limeroad@204f30ec]" name="shoppingoffers" duration-ms="20121" started-at="2020-05-31T16:20:39Z" finished-at="2020-05-31T16:20:59Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:11:18Z" finished-at="2020-06-01T09:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:11:18Z" finished-at="2020-06-01T09:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="shoppingoffers()[pri:19, instance:practice.Limeroad@204f30ec]" name="shoppingoffers" duration-ms="19057" started-at="2020-06-01T09:11:18Z" finished-at="2020-06-01T09:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shoppingoffers -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:39Z" finished-at="2020-05-31T16:20:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:39Z" finished-at="2020-05-31T16:20:39Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:11:37Z" finished-at="2020-06-01T09:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:59Z" finished-at="2020-05-31T16:20:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-05-31T16:20:59Z" finished-at="2020-05-31T16:20:59Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-06-01T09:11:37Z" finished-at="2020-06-01T09:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="checkoffer60()[pri:23, instance:practice.Limeroad@204f30ec]" name="checkoffer60" duration-ms="7330" started-at="2020-05-31T16:20:59Z" finished-at="2020-05-31T16:21:06Z">
+        <test-method status="PASS" signature="checkoffer60()[pri:23, instance:practice.Limeroad@204f30ec]" name="checkoffer60" duration-ms="7423" started-at="2020-06-01T09:11:37Z" finished-at="2020-06-01T09:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoffer60 -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:21:06Z" finished-at="2020-05-31T16:21:06Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:11:45Z" finished-at="2020-06-01T09:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="1" started-at="2020-05-31T16:21:06Z" finished-at="2020-05-31T16:21:06Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:11:45Z" finished-at="2020-06-01T09:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="checkoutoffer70()[pri:25, instance:practice.Limeroad@204f30ec]" name="checkoutoffer70" duration-ms="24210" started-at="2020-05-31T16:21:06Z" finished-at="2020-05-31T16:21:31Z">
+        <test-method status="PASS" signature="checkoffer50()[pri:25, instance:practice.Limeroad@204f30ec]" name="checkoffer50" duration-ms="46857" started-at="2020-06-01T09:11:45Z" finished-at="2020-06-01T09:12:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkoutoffer70 -->
-        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-05-31T16:21:31Z" finished-at="2020-05-31T16:21:31Z">
+        </test-method> <!-- checkoffer50 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="1" started-at="2020-06-01T09:12:31Z" finished-at="2020-06-01T09:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="FAIL" signature="inside()[pri:27, instance:practice.Limeroad@204f30ec]" name="inside" duration-ms="28423" started-at="2020-06-01T09:12:31Z" finished-at="2020-06-01T09:13:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='What is LimeRoad GOLD?']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61374}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: fdc0039cbbc11aed4c97e16f6aeb980c
+*** Element info: {Using=xpath, value=//div[text()='What is LimeRoad GOLD?']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='What is LimeRoad GOLD?']"}
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: operadriver=81.0.4044.113 (e3225dafb0475864a1812a374d73a92e391635ac-refs/branch-heads/4044@{#936}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'LAPTOP-KRNDV7TL', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61374}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 81.0.4044.113 (e3225dafb047..., userDataDir: C:\Users\91984\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.138, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: fdc0039cbbc11aed4c97e16f6aeb980c
+*** Element info: {Using=xpath, value=//div[text()='What is LimeRoad GOLD?']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at practice.Limeroad.inside(Limeroad.java:542)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inside -->
+        <test-method status="PASS" signature="start()[pri:0, instance:practice.Limeroad@204f30ec]" name="start" is-config="true" duration-ms="0" started-at="2020-06-01T09:12:31Z" finished-at="2020-06-01T09:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="end()[pri:0, instance:practice.Limeroad@204f30ec]" name="end" is-config="true" duration-ms="0" started-at="2020-06-01T09:13:00Z" finished-at="2020-06-01T09:13:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
