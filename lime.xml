@@ -3,11 +3,10 @@
 <suite name="Suite">
   <test name="Test">
   <parameter name="brow" value="op"></parameter>
-  <parameter name="goo" value="https://www.limeroad.com/"></parameter>
+  <parameter name="goo" value="https://www.limeroad.com"></parameter>
   <parameter name="str" value="color"></parameter>
   <parameter name="web" value="element"></parameter>
   <parameter name="search" value="kids room curtains"></parameter>
-  
   <groups>
   <run>
   <include name="regression"/>
