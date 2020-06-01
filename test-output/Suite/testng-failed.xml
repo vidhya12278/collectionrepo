@@ -20,15 +20,9 @@
     <classes>
       <class name="practice.Limeroad">
         <methods>
-          <include name="checkoutoffer70"/>
-          <include name="searchproduct" invocation-numbers="0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1"/>
-          <include name="checkoffer60"/>
-          <include name="signin"/>
-          <include name="addtocart" invocation-numbers="0"/>
+          <include name="inside"/>
           <include name="end"/>
-          <include name="shoppingoffers"/>
           <include name="start"/>
-          <include name="smartwatches"/>
         </methods>
       </class> <!-- practice.Limeroad -->
     </classes>
